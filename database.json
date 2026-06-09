@@ -1,0 +1,16 @@
+{
+  "livros": [
+    {
+      "id": "580376c5-41ab-4c66-8898-1f4dbc3c45fb",
+      "titulo": "O Senhor dos Anéis",
+      "autor": "J.R.R. Tolkien",
+      "ano": 1954
+    },
+    {
+      "id": "58bc1d57-f623-4bf0-a8a8-1396d3595196",
+      "titulo": "Dom Casmurro",
+      "autor": "Machado de Assis",
+      "ano": 1899
+    }
+  ]
+}

@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 const DB_PATH = path.join(__dirname, 'database.json');
 
 app.use(cors());
@@ -82,7 +82,7 @@ app.delete('/livros/:id', (req, res) => {
   res.status(204).send();
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`API rodando em http://localhost:${PORT}`);
   console.log(`Banco de dados: ${DB_PATH}`);
 });
